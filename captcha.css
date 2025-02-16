@@ -1,0 +1,71 @@
+
+body{
+    text-align: center;
+   
+ 
+}
+div
+{
+    border: 2px solid black;
+      margin-top: 30px;
+      padding-bottom: 30px;
+      background-color: azure;
+      margin-left: 40%;
+      margin-right: 40%;
+      margin-top: 10%;
+}
+
+
+
+body::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(
+      45deg,
+      #ff595e,
+      #ffca3a,
+      #8ac926,
+      #1982c4,
+      #6a4c93,
+      #ff6700
+    );
+    background-size: 400%;
+    z-index: -1;
+    animation: glow 20s linear infinite;
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+
+button{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
